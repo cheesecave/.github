@@ -37,7 +37,7 @@ Then open:
 - Admin: <http://127.0.0.1:28080/admin/>
 
 To pin a release, set `CHEESECAVE_VERSION` in `.env` (the default is `latest`). Edit `.env` before
-the first start to set your public URL and admin credentials. The full guide is in
+the first start if you serve it on a public address (`KOHAKU_HUB_BASE_URL`). The full guide is in
 [cheesecave-backend](https://github.com/cheesecave/cheesecave-backend/blob/main/docs/deployment/docker.md).
 
 ## Repositories
